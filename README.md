@@ -52,8 +52,7 @@ export contains appears at least once, because those are what break a parser:
 Both files are derived, not hand-edited. From the app repo:
 
 ```bash
-node scripts/make-fixture.mjs            # writes games-sample.csv
-node scripts/write-expected-example.mjs  # derives expected.json from it
+npm run fixture   # regenerates both together
 ```
 
 Deriving the figures rather than typing them is what keeps them honest: a hand-kept
