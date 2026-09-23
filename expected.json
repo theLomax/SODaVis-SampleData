@@ -1,0 +1,47 @@
+{
+  "_comment": [
+    "Expected figures for the committed fixture, by name rather than as magic numbers.",
+    "",
+    "Derived by scripts/write-expected-example.mjs — do not hand-edit. Re-run it after",
+    "scripts/make-fixture.mjs, so the numbers cannot drift from the CSV they describe.",
+    "",
+    "Every value here belongs to invented games, so nothing in this file is personal.",
+    "A machine holding the real export overrides it with data/expected.json.",
+    "",
+    "Why a file and not constants in the tests: a bare toBe(216) needs a comment",
+    "explaining where 216 came from, and that comment is where venue names and income",
+    "totals creep back into the repo."
+  ],
+  "games": {
+    "total": 24,
+    "active": 21,
+    "cancelled": 3,
+    "solo": 10,
+    "partners": 3,
+    "blankSportCode": 2
+  },
+  "trips": {
+    "total": 12,
+    "workDays": 11,
+    "multiTripDays": 1
+  },
+  "money": {
+    "grossActual": 928,
+    "grossScheduled": 1030,
+    "forfeited": 130,
+    "bonus": 28
+  },
+  "durations": {
+    "extracted": 6,
+    "scopesNeedingFigure": 3,
+    "gamesWithoutDuration": 7
+  },
+  "ageGroups": {
+    "rawStrings": 10,
+    "competitions": 9
+  },
+  "parks": {
+    "withGames": 7,
+    "withoutMileage": 1
+  }
+}
