@@ -10,7 +10,7 @@ Nothing here describes a real person, league, venue or payment. The names are ma
 
 | File | What it is |
 |---|---|
-| `games-sample.csv` | An Assignr-shaped export of 24 invented games. |
+| `games-sample.csv` | An Assignr-shaped export of 27 invented games. |
 | `expected.json` | The figures those games produce, by name — `games.total`, `money.grossActual`, and so on. |
 | `parks.ts` | Parks for the invented venues, including one with no mileage on purpose. |
 
@@ -29,7 +29,7 @@ adds assertions about one person's actual season.
 
 ## Every shape the real data has
 
-The point is not volume — 24 games is plenty — but that each structural oddity a real
+The point is not volume — 27 games is plenty — but that each structural oddity a real
 export contains appears at least once, because those are what break a parser:
 
 - the full 28-column header, including the columns that are always empty
@@ -46,6 +46,8 @@ export contains appears at least once, because those are what break a parser:
 - a park with **no mileage on record** — a figure the app must surface, never estimate
 - two assignors, one of which leaves the sport code blank
 - a `Notes` field using the `:::` separator for a rules URL plus a game note
+- one of each **fee anomaly**: an active game paying `$0`, a cancellation that paid, and
+  a game with no scheduled fee — none of which the real export happens to contain
 
 ## Regenerating
 

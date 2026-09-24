@@ -13,28 +13,28 @@
     "totals creep back into the repo."
   ],
   "games": {
-    "total": 24,
-    "active": 21,
-    "cancelled": 3,
-    "solo": 10,
+    "total": 27,
+    "active": 23,
+    "cancelled": 4,
+    "solo": 12,
     "partners": 3,
     "blankSportCode": 2
   },
   "trips": {
-    "total": 12,
-    "workDays": 11,
+    "total": 14,
+    "workDays": 13,
     "multiTripDays": 1
   },
   "money": {
-    "grossActual": 928,
-    "grossScheduled": 1030,
-    "forfeited": 130,
-    "bonus": 28
+    "grossActual": 978,
+    "grossScheduled": 1075,
+    "forfeited": 152.5,
+    "bonus": 78
   },
   "durations": {
     "extracted": 6,
     "scopesNeedingFigure": 3,
-    "gamesWithoutDuration": 7
+    "gamesWithoutDuration": 8
   },
   "ageGroups": {
     "rawStrings": 10,
@@ -43,5 +43,10 @@
   "parks": {
     "withGames": 7,
     "withoutMileage": 1
+  },
+  "anomalies": {
+    "zeroFeeActive": 1,
+    "paidCancellation": 1,
+    "noScheduledFee": 1
   }
 }
