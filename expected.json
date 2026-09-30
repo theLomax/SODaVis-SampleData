@@ -29,7 +29,8 @@
     "grossActual": 978,
     "grossScheduled": 1075,
     "forfeited": 152.5,
-    "bonus": 78
+    "bonus": 28,
+    "unscheduledIncome": 50
   },
   "durations": {
     "extracted": 6,
